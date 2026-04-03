@@ -67,7 +67,5 @@ app.get("*", (req, res) => { // *: các trường hợp còn lại
     })
 });
 
-server.listen(port, () => {
-    console.log(`App listening on port ${port}`);
-}); 
+module.exports = app;
 
