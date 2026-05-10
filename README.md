@@ -100,8 +100,11 @@ Create a `.env` file in the root directory:
 
 ```env
 PORT=3000
+
+# Tạo tại: https://www.mongodb.com/atlas
 MONGO_URL=your_mongodb_connection_string
 
+# Tạo tại: https://cloudinary.com
 CLOUD_NAME=your_cloudinary_cloud_name
 CLOUD_KEY=your_cloudinary_api_key
 CLOUD_SECRET=your_cloudinary_api_secret
@@ -118,16 +121,6 @@ npm start
 
 # The app will be running at http://localhost:3000
 ```
-
----
-
-## 📸 Screenshots
-
-> _Add screenshots of your app here_
-
-| Customer Home | Admin Dashboard | Live Chat |
-|---|---|---|
-| ![home]() | ![admin]() | ![chat]() |
 
 ---
 
