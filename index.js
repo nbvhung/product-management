@@ -67,5 +67,7 @@ app.get("*", (req, res) => { // *: các trường hợp còn lại
     })
 });
 
-module.exports = app;
+server.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
+});
 
